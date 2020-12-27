@@ -1,0 +1,48 @@
+.header{
+    width: 100%;
+    background-color: blue;
+    min-height: 50px;
+    display: flex;
+}
+.dialog{
+    background-color: #fff;
+    color: black;
+    padding: 5px;
+    position: absolute;
+}
+.company_name {
+    margin-left: 20%;
+    color: white;
+    font-style: oblique;
+    font-weight: 800;
+    font-size: larger;
+    margin-top: 10px;
+}
+input {
+    width: 38%;
+    border-radius: 3px;
+    margin-left: 1%;
+    height: 33px;
+    margin-top: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.23);
+}
+
+.admin {
+    display: flex;
+    padding: 14px;
+    color: white;
+    font-weight: 500;
+    margin-left: 6%;
+}
+.mr {
+    margin-left: 20px;
+    cursor: pointer;
+}
+.crt {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+img.dwn_arr {
+    width: 8px;
+}
